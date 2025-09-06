@@ -46,6 +46,8 @@ python -m venv venv
 # Mac/Linux
 source venv/bin/activate
 
+---
+
 **Instalar dependencias:
 
 bash
@@ -75,3 +77,4 @@ El historial de conversación se mantiene mientras la sesión esté activa.
 
 ## 🔹 Notas Importantes
 **Uso de la API de OpenAI: cada mensaje consumirá tokens y descontará del saldo de tu cuenta.
+
