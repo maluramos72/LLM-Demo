@@ -33,7 +33,7 @@ Clonar el repositorio:
 
 bash
 Copiar código
-git clone https://github.com/TU_maluramos72/LLM-demo.git
+git clone https://github.com/maluramos72/LLM-Demo.git
 cd LLM-demo
 
 **Crear y activar un entorno virtual (recomendado):
@@ -41,6 +41,7 @@ cd LLM-demo
 bash
 Copiar código
 python -m venv venv
+
 # Windows
 .\venv\Scripts\activate
 # Mac/Linux
@@ -52,12 +53,14 @@ source venv/bin/activate
 
 bash
 Copiar código
+
 pip install -r requirements.txt
 
 **Configurar API Key de OpenAI en .env:
 
 env
 Copiar código
+
 OPENAI_API_KEY=tu_api_key_aqui
 
 ---
@@ -68,7 +71,9 @@ Ejecutar la app con Streamlit:
 
 bash
 Copiar código
+
 streamlit run app.py
+
 Escribe tu mensaje en el chat y LUCY te responderá.
 
 El historial de conversación se mantiene mientras la sesión esté activa.
@@ -77,4 +82,5 @@ El historial de conversación se mantiene mientras la sesión esté activa.
 
 ## 🔹 Notas Importantes
 **Uso de la API de OpenAI: cada mensaje consumirá tokens y descontará del saldo de tu cuenta.
+
 
