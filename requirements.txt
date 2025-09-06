@@ -1,0 +1,13 @@
+# Framework de interfaz
+streamlit==1.38.0
+
+# LangChain (núcleo + integración con OpenAI)
+langchain==0.2.14
+langchain-core==0.2.36
+langchain-openai==0.1.23
+
+# Cliente oficial de OpenAI
+openai==1.43.0
+
+# Manejo de variables de entorno (.env)
+python-dotenv==1.0.1
